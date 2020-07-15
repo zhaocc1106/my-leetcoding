@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a5a10d-4ff4-4b0d-8b34-bf8c0aa627fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bkiyMPR8jgMToDminbsTNDT4tW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.reverseKGroup">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="my-leetcoding" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.generateParenthesis" />
+      <module name="my-leetcoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.reverseKGroup" />
+      <module name="my-leetcoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.swapPairs" />
+      <module name="my-leetcoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.validParentheses" />
+      <module name="my-leetcoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.validParentheses" />
+      <item itemvalue="Application.generateParenthesis" />
+      <item itemvalue="Application.swapPairs" />
+      <item itemvalue="Application.reverseKGroup" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.reverseKGroup" />
+        <item itemvalue="Application.swapPairs" />
+        <item itemvalue="Application.generateParenthesis" />
+        <item itemvalue="Application.validParentheses" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a5a10d-4ff4-4b0d-8b34-bf8c0aa627fb" name="Default Changelist" comment="" />
+      <created>1589182745852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589182745852</updated>
+      <workItem from="1589182747303" duration="1029000" />
+      <workItem from="1589183791251" duration="1817000" />
+      <workItem from="1589973592218" duration="3951000" />
+      <workItem from="1590408571869" duration="1390000" />
+      <workItem from="1590581812523" duration="1840000" />
+      <workItem from="1590670989371" duration="143000" />
+      <workItem from="1591013191542" duration="4337000" />
+      <workItem from="1591620109643" duration="806000" />
+      <workItem from="1593691887990" duration="605000" />
+      <workItem from="1594038944465" duration="9548000" />
+      <workItem from="1594294821256" duration="1700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="184" width="800" height="673" key="#Project_Structure" timestamp="1589183645182">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="555" y="184" width="800" height="673" key="#Project_Structure/0.28.1920.990@0.28.1920.990" timestamp="1589183645182" />
+    <state x="601" y="129" width="708" height="783" key="#Unnamed" timestamp="1589182894497">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="601" y="129" width="708" height="783" key="#Unnamed/0.28.1920.990@0.28.1920.990" timestamp="1589182894497" />
+    <state x="418" y="181" width="1084" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589183710542">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="418" y="181" width="1084" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.990@0.28.1920.990" timestamp="1589183710542" />
+    <state x="692" y="306" width="525" height="429" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589183017787">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="692" y="306" width="525" height="429" key="#com.intellij.ide.util.TreeClassChooserDialog/0.28.1920.990@0.28.1920.990" timestamp="1589183017787" />
+    <state x="800" y="415" width="309" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589182786726">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="800" y="415" width="309" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.28.1920.990@0.28.1920.990" timestamp="1589182786726" />
+    <state x="697" y="272" width="515" height="566" key="EnvironmentVariablesDialog" timestamp="1589182957474">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="697" y="272" width="515" height="566" key="EnvironmentVariablesDialog/0.28.1920.990@0.28.1920.990" timestamp="1589182957474" />
+    <state x="743" y="315" width="424" height="480" key="FileChooserDialogImpl" timestamp="1589183642591">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="743" y="315" width="424" height="480" key="FileChooserDialogImpl/0.28.1920.990@0.28.1920.990" timestamp="1589183642591" />
+    <state width="933" height="210" key="GridCell.Tab.0.bottom" timestamp="1594209688911">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="933" height="210" key="GridCell.Tab.0.bottom/0.28.1920.990@0.28.1920.990" timestamp="1594209688911" />
+    <state width="933" height="210" key="GridCell.Tab.0.center" timestamp="1594209688910">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="933" height="210" key="GridCell.Tab.0.center/0.28.1920.990@0.28.1920.990" timestamp="1594209688910" />
+    <state width="933" height="210" key="GridCell.Tab.0.left" timestamp="1594209688910">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="933" height="210" key="GridCell.Tab.0.left/0.28.1920.990@0.28.1920.990" timestamp="1594209688910" />
+    <state width="933" height="210" key="GridCell.Tab.0.right" timestamp="1594209688911">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="933" height="210" key="GridCell.Tab.0.right/0.28.1920.990@0.28.1920.990" timestamp="1594209688911" />
+    <state width="1868" height="289" key="GridCell.Tab.1.bottom" timestamp="1589183778872">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.1.bottom/0.28.1920.990@0.28.1920.990" timestamp="1589183778872" />
+    <state width="1868" height="289" key="GridCell.Tab.1.center" timestamp="1589183778871">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.1.center/0.28.1920.990@0.28.1920.990" timestamp="1589183778871" />
+    <state width="1868" height="289" key="GridCell.Tab.1.left" timestamp="1589183778871">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.1.left/0.28.1920.990@0.28.1920.990" timestamp="1589183778871" />
+    <state width="1868" height="289" key="GridCell.Tab.1.right" timestamp="1589183778872">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.1.right/0.28.1920.990@0.28.1920.990" timestamp="1589183778872" />
+    <state x="443" y="100" width="1024" height="841" key="SettingsEditor" timestamp="1589183493376">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="443" y="100" width="1024" height="841" key="SettingsEditor/0.28.1920.990@0.28.1920.990" timestamp="1589183493376" />
+    <state x="606" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1594294823721">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="606" y="350" key="com.intellij.ide.util.TipDialog/0.28.1920.990@0.28.1920.990" timestamp="1594294823721" />
+    <state x="599" y="202" width="721" height="642" key="find.popup" timestamp="1594296609315">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="599" y="202" width="721" height="642" key="find.popup/0.28.1920.990@0.28.1920.990" timestamp="1594296609315" />
+    <state x="222" y="67" width="1465" height="907" key="new project wizard" timestamp="1590671130966">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="222" y="67" width="1465" height="907" key="new project wizard/0.28.1920.990@0.28.1920.990" timestamp="1590671130966" />
+    <state x="623" y="244" key="search.everywhere.popup" timestamp="1590671085273">
+      <screen x="0" y="28" width="1920" height="990" />
+    </state>
+    <state x="623" y="244" key="search.everywhere.popup/0.28.1920.990@0.28.1920.990" timestamp="1590671085273" />
+  </component>
+</project>

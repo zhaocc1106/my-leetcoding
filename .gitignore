@@ -1,3 +1,7 @@
-.idea/*
+c++/.idea/*
+java/.idea/*
 
-out/*
+
+c++/cmake-build-debug/*
+java/out/*
+
