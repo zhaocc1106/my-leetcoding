@@ -3,4 +3,4 @@ project(my_leetcoding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(my_leetcoding nextPermutation.cpp)
+add_executable(my_leetcoding constructBinTreeFromPreorderMidorder.cpp)
