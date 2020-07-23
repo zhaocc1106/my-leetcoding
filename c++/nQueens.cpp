@@ -1,5 +1,5 @@
 /**
- *
+ * https://leetcode-cn.com/problems/n-queens/
  */
 
 #include <iostream>
