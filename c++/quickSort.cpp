@@ -1,5 +1,5 @@
 /**
- * Quick sort
+ * 快速排序
  * https://blog.csdn.net/weixin_42109012/article/details/91645051
  */
 

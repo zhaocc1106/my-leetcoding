@@ -1,4 +1,5 @@
 /**
+ * 使用两个队列模拟栈
  * https://leetcode-cn.com/problems/implement-stack-using-queues/
  */
 
