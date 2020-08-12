@@ -80,6 +80,7 @@ public:
 
     vector<string> permutation(string s) {
         bool visit[s.length()]; // 保存当前位置的字符是否访问过
+        cout << sizeof(visit) << endl;
         memset(visit, 0, sizeof(visit));
         unordered_set<char> cutLeaf; // 用于减枝
 
