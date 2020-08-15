@@ -46,6 +46,36 @@ public:
         for (int i = 0; i < inorder.size(); i++) {
             index[inorder[i]] = i; // 构建map映射inorder的值和标签，方便寻找根节点的位置
         }
-        myBuildTree(preorder, inorder, 0, preorder.size() - 1, 0, inorder.size() - 1);
+        return myBuildTree(preorder, inorder, 0, preorder.size() - 1, 0, inorder.size() - 1);
+    }
+
+    static TreeNode* buildTree2(vector<int>& preorder, vector<int>& inorder) {
+        if (preorder.size() == 0) {
+            return nullptr;
+        }
+        if (preorder.size() == 1) {
+            return new TreeNode(preorder[0]);
+        }
+
+        vector<int> lPreorder; // 存放左子树的前序遍历
+        vector<int> lInorder; // 存放左子树的中序遍历
+        vector<int> rPreorder; // 存放右子树的前序遍历
+        vector<int> rInorder; // 存放右子树的中序遍历
+
+        int rootVal = preorder[0];
+        int lChildLen = 0;
+        for (; inorder[lChildLen] != rootVal; lChildLen++); // 寻找根节点在中序遍中的位置
+        lPreorder.assign(preorder.begin() + 1, preorder.begin() + 1 + lChildLen); // 左子树的前序遍历
+        lInorder.assign(inorder.begin(), inorder.begin() + lChildLen); // 左子树的中序遍历
+        TreeNode *lChild = buildTree(lPreorder, lInorder); // 构建左子树
+
+        rPreorder.assign(preorder.begin() + 1 + lChildLen, preorder.end()); // 右子树的前序遍历
+        rInorder.assign(inorder.begin() + lChildLen + 1, inorder.end()); // 右子树的中序遍历
+        TreeNode *rChild = buildTree(rPreorder, rInorder); // 构建右子树
+
+        TreeNode *root = new TreeNode(rootVal);
+        root->left = lChild;
+        root->right = rChild;
+        return root;
     }
 };
