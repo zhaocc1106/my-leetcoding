@@ -59,6 +59,9 @@ public:
 };
 
 int main() {
-    vector<int> nums = {1, 3, 2, 3, 1};
-    cout << Solution().reversePairs(nums);
+    vector<int> nums = {1, 3, 2, 3, 1, 6, 8, 7, 5};
+    cout << Solution().reversePairs(nums) << endl;
+    for (auto num : nums) {
+        cout << num << ", ";
+    }
 }
