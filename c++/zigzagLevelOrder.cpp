@@ -4,6 +4,7 @@
  * 给定一个二叉树，返回其节点值的锯齿形层次遍历。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。
  *
  * https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
+ * https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/
  */
 
 #include <iostream>
@@ -48,17 +49,17 @@ public:
                 if (node->left != nullptr) {
                     nodes.push_back(node->left);
                     if (left) {
-                        level->push_front(node->left); // 每次讲节点放入最开始，这样顺序读取的时候就相当于从右到左了
+                        level->push_front(node->left); // 每次将节点放入最开始，这样顺序读取的时候就相当于从右到左了
                     } else {
-                        level->push_back(node->left); // 每次讲节点放入最开始，这样顺序读取的时候就相当于从左到右了
+                        level->push_back(node->left); // 每次将节点放入最末尾，这样顺序读取的时候就相当于从左到右了
                     }
                 }
                 if (node->right != nullptr) {
                     nodes.push_back(node->right);
                     if (left) {
-                        level->push_front(node->right); // 每次讲节点放入最开始，这样顺序读取的时候就相当于从右到左了
+                        level->push_front(node->right); // 每次将节点放入最开始，这样顺序读取的时候就相当于从右到左了
                     } else {
-                        level->push_back(node->right); // 每次讲节点放入最开始，这样顺序读取的时候就相当于从左到右了
+                        level->push_back(node->right); // 每次将节点放入最末尾，这样顺序读取的时候就相当于从左到右了
                     }
                 }
             } else { //当前层结束了
