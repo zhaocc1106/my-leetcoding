@@ -34,9 +34,14 @@ public:
     int cuttingRope2(int n) {
         /* 数学公式推导，所有长度均分成n/e长度时乘积最大，由于裁剪都是整数，所以把e当成3*/
 
-        if (n <= 4) {
+        if (n <= 3) {
             return n - 1;
         }
+
+        if (n == 4) {
+            return 4;
+        }
+
         int ans = 1;
         while (n > 4) {
             ans = ans * 3;

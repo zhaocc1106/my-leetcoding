@@ -12,12 +12,12 @@ class Solution {
 public:
     static int singleValue(vector<int> arr) {
         int ans = 0;
-        for (int i = 0; i < 32; ++i) {
+        for (int i = 0; i < 32; ++i) { // 对每一bit位统计出现的次数
             int sum = 0;
             for (auto item : arr) {
                 sum += ((item >> i) & 1);
             }
-            if (sum % 3 == 1) {
+            if (sum % 3 == 1) {  // 如果单独出现的那个数字该位为1，则必定余1，加上该位的1
                 ans |= (1 << i);
             }
         }
