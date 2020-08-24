@@ -53,7 +53,7 @@ public:
     }
 
     int reversePairs(vector<int> &nums) {
-        vector<int> tmp(nums.size()); // 用于保存归并排序的结果
+        vector<int> tmp(nums.size()); // 用于临时保存归并排序的结果
         return mergeSort(nums, tmp, 0, nums.size() - 1);
     }
 };
