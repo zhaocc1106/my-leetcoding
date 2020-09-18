@@ -31,3 +31,8 @@ public:
         return true;
     }
 };
+
+int main() {
+    vector<int> postorder = {1, 4, 3, 5, 6};
+    cout << Solution().verifyPostorder(postorder);
+}

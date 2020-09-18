@@ -89,5 +89,5 @@ int main() {
     Temp temp4 = temp3; // 拷贝构造函数
     Temp temp5 = move(temp3); // 移动构造函数
     temp5 = move(temp); // 移动赋值函数
-    temp5 = Temp("123"); // 移动赋值函数
+    temp5 = Temp("123"); // 一个默认构造函数，一个移动赋值函数
 }
