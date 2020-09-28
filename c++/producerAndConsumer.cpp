@@ -58,9 +58,9 @@ int main() {
     Producer producer;
     Consumer consumer;
 
-    thread thread1(&Producer::produce, producer);
-    thread thread2(&Consumer::consume, consumer, 1);
-    thread thread3(&Consumer::consume, consumer, 2);
+    thread thread1(&Producer::produce, &producer);
+    thread thread2(&Consumer::consume, &consumer, 1);
+    thread thread3(&Consumer::consume, &consumer, 2);
 
     thread1.join();
     thread2.join();
