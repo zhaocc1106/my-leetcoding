@@ -16,7 +16,7 @@ public:
     int lastRemaining(int n, int m) {
         /**
          * 逆推法
-         * f(0, m) = 0
+         * f(1, m) = 0
          * f(n, m) = (f(n-1, m) + m) % n
          */
         int ans = 0;

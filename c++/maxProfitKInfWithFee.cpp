@@ -3,7 +3,7 @@
  * 你可以无限次地完成交易，但是你每笔交易都需要付手续费。如果你已经购买了一个股票，在卖出它之前你就不能再继续购买股票了。
  * 返回获得利润的最大值。
  * 注意：这里的一笔交易指买入持有并卖出股票的整个过程，每笔交易你只需要为支付一次手续费。
- * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+ * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
  */
 
 #include <iostream>
@@ -28,12 +28,14 @@ public:
                 continue;
             }
             dp[i][0] = max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
-            dp[i][1] = max(dp[i - 1][1], dp[i - 2][0] - prices[i] - fee);
+            dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] - prices[i] - fee);
         }
 
+        /*
         for (int i = 0; i < n; i++) {
             cout << dp[i][0] << ", " << dp[i][1] << endl;
         }
+        */
 
         return dp[n - 1][0];
     }
