@@ -36,18 +36,20 @@ public:
 
     // 寻找节点的起始位置
     Node *findLoopStart(Node *node) {
-        Node *slow = node, *fast = node; // 快慢指针
+        Node *slow = head, *fast = head; // 快慢指针
 
-        while (slow != nullptr && fast->next != nullptr) {
+        bool have_circle = false;
+        while (fast != nullptr && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next; // 快指针每次必慢指针多走一步
 
             if (slow == fast) {
+                have_circle = true;
                 break;
             }
         }
 
-        if (slow != fast) { // 没有环
+        if (!have_circle) {
             return nullptr;
         }
 
