@@ -3,4 +3,4 @@ project(my_leetcoding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(my_leetcoding flattenBinTree.cpp)
+add_executable(my_leetcoding permutationByBacktrace.cpp)

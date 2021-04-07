@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <stdio.h>
+#include <cstring>
 
 using namespace std;
 
@@ -17,6 +18,7 @@ typedef struct {
 int main() {
     // 0100 0010 0110 0000 0000 0000 0000 0000
     type type1;
+    memset(&type1, 0, sizeof(type));
     type1.a = 2;
     type1.b = 8;
     type1.d = 3;
